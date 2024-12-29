@@ -55,7 +55,9 @@
 
 <body>
   <header>
-    <h1>Flashcards App</h1>
+    <a href="{% url 'card-list' %}" style="text-decoration: none; cursor: default;">
+      <h1>Flashcards App</h1>
+    </a>
   </header>
   {% include "cards/navigation.html" %}
   <main>
